@@ -6,7 +6,7 @@
 /*   By: mpisani <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 11:38:15 by mpisani           #+#    #+#             */
-/*   Updated: 2024/12/16 17:10:38 by mpisani          ###   ########.fr       */
+/*   Updated: 2024/12/19 09:40:18 by mpisani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ int	ft_atoi(const char *str)
 	int	sign;
 	int	i;
 
+	if (!str)
+		return (0);
 	result = 0;
 	sign = 1;
 	i = 0;
