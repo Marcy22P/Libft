@@ -18,8 +18,6 @@ int	ft_atoi(const char *str)
 	int	sign;
 	int	i;
 
-	if (!str)
-		return (0);
 	result = 0;
 	sign = 1;
 	i = 0;
