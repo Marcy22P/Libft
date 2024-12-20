@@ -6,7 +6,7 @@
 /*   By: mpisani <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 11:43:13 by mpisani           #+#    #+#             */
-/*   Updated: 2024/12/20 16:56:52 by mpisani          ###   ########.fr       */
+/*   Updated: 2024/12/20 17:30:04 by mpisani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	char	*substr;
 
 	len2 = 0;
-	if ((size_t)start >= ft_strlen(s) || !s)
+	if ((int)start >= ft_strlen(s) || !s)
 		return (ft_strdup(""));
 	if (start > (long long int)ft_strlen(s))
 		return (NULL);
