@@ -1,4 +1,3 @@
-```markdown
 # Libft
 
 Libft ‑ 42 Roma Luiss
@@ -46,4 +45,4 @@ You have been graded **125** on Libft:
 | `test_spdxiucpercent` | **8/8 correct functions** |
 | `bonus_one` | **KO** (Does not compile) |
 | `bonus_two` | **KO** (Does not compile) |
-```
+
